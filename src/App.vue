@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+  <h3>Training skills</h3>
+    <DiretivasOne/>
+    <MetodosOne/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DiretivasOne from './components/DiretivasOne.vue';
+import MetodosOne from './components/MetodosOne.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DiretivasOne,
+    MetodosOne,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  background-color: burlywood;
 }
+
 </style>
