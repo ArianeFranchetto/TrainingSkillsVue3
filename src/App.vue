@@ -5,6 +5,7 @@
     <MetodosOne/>
     <ListaDeFrutas/>
     <MudarGato/>
+   
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MetodosOne from './components/MetodosOne.vue';
 import ListaDeFrutas from './components/ListaDeFrutas.vue';
 import MudarGato from './components/MudarGato.vue';
 
+
 export default {
   name: 'App',
   components: {
@@ -21,6 +23,7 @@ export default {
     MetodosOne,
     ListaDeFrutas,
     MudarGato,
+    
   }
 }
 </script>

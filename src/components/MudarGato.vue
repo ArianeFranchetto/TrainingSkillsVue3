@@ -3,8 +3,8 @@
         <h3>V-BIND (ligar) E V-ON</h3>
         <h4>O gatinho selecionado é {{ gato }}</h4>
         <img v-bind:src="imagem">
-        <button v-on:click="mostrarGatoComendo">Gato comendo</button>
-        <button v-on:click="mostrarGatoRindo">Gato rindo</button>
+        <button @click="mostrarGatoComendo">Gato comendo</button>
+        <button @click="mostrarGatoRindo">Gato rindo</button>
 
     </div>
 
@@ -26,11 +26,11 @@ export default defineComponent ({
     methods: {
         mostrarGatoComendo () {
             this.gato = 'GatoComendo'
-            this.imagem = './img/gato-peixe.png'
+            this.imagem = '/img/gato-peixe.png'
         },
 
         mostrarGatoRindo () {
-            this.gato = 'GatoRindo'
+            this.gato = 'GatoRindo',
             this.imagem = '/img/gato-rindo.png'
         }
        
@@ -46,6 +46,12 @@ export default defineComponent ({
 <style>
 .geralzinho {
     background-color: darkgreen;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
 
 </style>
