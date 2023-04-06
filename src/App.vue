@@ -5,6 +5,8 @@
     <MetodosOne/>
     <ListaDeFrutas/>
     <MudarGato/>
+    <DiretivasTwo/>
+    <DiretivasThree/>
    
   </div>
 </template>
@@ -14,6 +16,8 @@ import DiretivasOne from './components/DiretivasOne.vue';
 import MetodosOne from './components/MetodosOne.vue';
 import ListaDeFrutas from './components/ListaDeFrutas.vue';
 import MudarGato from './components/MudarGato.vue';
+import DiretivasTwo from './components/DiretivasTwo.vue';
+import DiretivasThree from './components/DiretivasThree.vue';
 
 
 export default {
@@ -23,6 +27,8 @@ export default {
     MetodosOne,
     ListaDeFrutas,
     MudarGato,
+    DiretivasTwo,
+    DiretivasThree
     
   }
 }
